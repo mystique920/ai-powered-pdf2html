@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pdf2html-ai",
-    version="0.1.0",
+    version="0.1.1",
     author="Mystique",
     author_email="mystique@tuta.com",
     description="AI-powered PDF to HTML conversion using mistral-ocr and pixtral-12b",
@@ -21,7 +21,7 @@ setup(
     python_requires=">=3.10",
     install_requires=[
         # List your dependencies here
-        "openai",
+        "mistralai",
         "python-dotenv",
         "requests",
         "PyPDF2",
