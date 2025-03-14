@@ -1,6 +1,6 @@
 # PDF2HTML AI
 
-[![PyPI version](https://badge.fury.io/py/pdf2html-ai.svg)](https://badge.fury.io/py/pdf2html-ai)
+[![PyPI version](https://badge.fury.io/py/pdf2html_ai.svg)](https://badge.fury.io/py/pdf2html_ai)
 
 A Python package for converting PDF documents to accessible HTML using Mistral OCR and Pixtral 12B. This tool processes PDFs and generates WCAG-compliant HTML output with enhanced accessibility features.
 
