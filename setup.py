@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pdf2html-ai",
-    version="0.1.1",
+    version="0.1.3",
     author="Mystique",
     author_email="mystique@tuta.com",
     description="AI-powered PDF to HTML conversion using mistral-ocr and pixtral-12b",
@@ -29,7 +29,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pdf2html-ai=pdf2html_ai.processor:main',
+        'pdf2html=pdf2html_ai.processor:main',
+        'pdf2html-ai=pdf2html_ai.processor:main',  # Alternative name for the same command'
         ],
     },
 )
