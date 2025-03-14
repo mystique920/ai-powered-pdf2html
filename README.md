@@ -72,14 +72,21 @@ with open("output.html", "w", encoding="utf-8") as f:
 
 ### Using the Command Line
 
+After installing the package, you can use the `pdf2html-ai` command directly:
+
 Process a local PDF file:
 ```bash
-python -m pdf2html_ai.processor --file path/to/your/document.pdf
+pdf2html-ai --file path/to/your/document.pdf
 ```
 
 Process a PDF from a URL:
 ```bash
-python -m pdf2html_ai.processor --url https://example.com/document.pdf
+pdf2html-ai --url https://example.com/document.pdf
+```
+
+Alternatively, you can still use the module directly:
+```bash
+python -m pdf2html_ai.processor --file path/to/your/document.pdf
 ```
 
 ## Example Scripts
@@ -108,17 +115,17 @@ python examples/example.py
 
 Process a local file with a custom API key and open in browser:
 ```bash
-python -m pdf2html_ai.processor --file document.pdf --api-key YOUR_API_KEY --open-browser
+pdf2html-ai --file document.pdf --api-key YOUR_API_KEY --open-browser
 ```
 
 Process a PDF from URL and save to a custom output file:
 ```bash
-python -m pdf2html_ai.processor --url https://example.com/document.pdf --output result.html
+pdf2html-ai --url https://example.com/document.pdf --output result.html
 ```
 
 Process a file but limit image processing to 5 images:
 ```bash
-python -m pdf2html_ai.processor --file document.pdf --max-images 5
+pdf2html-ai --file document.pdf --max-images 5
 ```
 
 ## API Key Setup
@@ -132,7 +139,7 @@ The script requires a valid Mistral API key to function. There are two ways to p
 
 2. Provide the API key directly using the `--api-key` command-line argument:
    ```bash
-   python -m pdf2html_ai.processor --file document.pdf --api-key your_api_key_here
+   pdf2html-ai --file document.pdf --api-key your_api_key_here
    ```
 
 ## Notes
