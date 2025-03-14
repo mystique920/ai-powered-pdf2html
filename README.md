@@ -76,12 +76,12 @@ After installing the package, you can use the `pdf2html-ai` command directly:
 
 Process a local PDF file:
 ```bash
-pdf2html-ai --file path/to/your/document.pdf
+pdf2html --file path/to/your/document.pdf
 ```
 
 Process a PDF from a URL:
 ```bash
-pdf2html-ai --url https://example.com/document.pdf
+pdf2html --url https://example.com/document.pdf
 ```
 
 Alternatively, you can still use the module directly:
@@ -115,17 +115,17 @@ python examples/example.py
 
 Process a local file with a custom API key and open in browser:
 ```bash
-pdf2html-ai --file document.pdf --api-key YOUR_API_KEY --open-browser
+pdf2html --file document.pdf --api-key YOUR_API_KEY --open-browser
 ```
 
 Process a PDF from URL and save to a custom output file:
 ```bash
-pdf2html-ai --url https://example.com/document.pdf --output result.html
+pdf2html --url https://example.com/document.pdf --output result.html
 ```
 
 Process a file but limit image processing to 5 images:
 ```bash
-pdf2html-ai --file document.pdf --max-images 5
+pdf2html --file document.pdf --max-images 5
 ```
 
 ## API Key Setup
