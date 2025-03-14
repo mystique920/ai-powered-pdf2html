@@ -84,7 +84,7 @@ python mistral_ocr.py --url https://example.com/document.pdf
 
 - `--file`, `-f`: Path to local PDF file
 - `--url`, `-u`: URL to PDF file
-- `--api-key`, `-k`: Mistral API key (overrides default)
+- `--api-key`, `-k`: Mistral API key
 - `--output`, `-o`: Output HTML file path (default: output.html)
 - `--max-images`, `-m`: Maximum number of images to process (default: all)
 - `--open-browser`, `-b`: Open the output HTML in browser after processing
