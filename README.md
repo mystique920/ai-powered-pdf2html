@@ -46,8 +46,13 @@ python test_url_pdf.py
 
 ## Installation
 
-1. Ensure you have Python installed
-2. Install required packages using pip:
+1. Clone the repository:
+   ```
+   git clone https://github.com/mystique920/ai-powered-pdf2html
+   cd ai-powered-pdf2html
+   ```
+2. Ensure you have Python installed
+3. Install required packages using pip:
    ```
    pip install -r requirements.txt
    ```
@@ -56,7 +61,7 @@ python test_url_pdf.py
    ```
    pip install mistralai requests
    ```
-3. Make the script executable (optional):
+4. Make the script executable (optional):
    ```
    chmod +x mistral_ocr.py
    ```
