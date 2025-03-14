@@ -27,4 +27,9 @@ setup(
         "PyPDF2",
         # Add other dependencies as needed
     ],
+    entry_points={
+        'console_scripts': [
+            'pdf2html-ai=pdf2html_ai.processor:main',
+        ],
+    },
 )
